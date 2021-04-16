@@ -27,7 +27,8 @@ if (!isset($_SESSION['isLogged']) || "1" != $_SESSION['isLogged']) {
 
         <p>
             <?php
-            if ($_SESSION['email']) {
+            if ($_SESSION['email']) 
+            {
                 echo "Welcome " . $_SESSION['email'];
             }
             ?>
