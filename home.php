@@ -17,10 +17,10 @@ if (!isset($_SESSION['isLogged']) || "1" != $_SESSION['isLogged']) {
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav>
         <div class="container">
             <form action="<?php echo htmlspecialchars("logout.php"); ?>" method="POST">
-                <button type="submit" class="btn btn-danger navbar-btn navbar-right?" name="signout">Log out</button>
+                <button type="submit" name="signout">Log out</button>
             </form>
         </div>
     </nav>
