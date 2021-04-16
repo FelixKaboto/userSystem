@@ -1,5 +1,4 @@
 <?php
-include 'head.php';
 include 'validation.php';
 
 // define variables and set to empty values
